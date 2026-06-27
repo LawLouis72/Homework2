@@ -1,0 +1,47 @@
+    <!doctype html>
+<!-- 
+Program name: patient-form.html
+Author: Isaiah Louis
+Date created: 6/26/2026
+Date last edited: 6/26/2026
+Version: 2.0
+Description: A document to take new patient information
+-->
+<html>
+    <head>
+        <title>Medical Form</title>
+        <link rel="stylesheet" href="./homework2CSS.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    <form>
+        <header>
+            <table id="heading">
+                <tr>
+                    <td> <img src="../Medical_Image.jpeg" alt="Medical Image" style="width:200px;height:200px"> 
+                    <td> <h1 class="h1">Cougar Medical Facility</h1>
+                    <h3 class ="h3">Patient Registration Form</h3>
+                    <p id="date"></p>
+                    <script>
+                        const d = new Date();
+                        document.getElementById("date").innerHTML = d;
+                    </script>
+                </tr>
+            </table>
+        </header>
+	<h1 class="h1" >Thank you for your submission!</h1>
+    	</div>
+ 
+        <footer>
+            <div>
+               <table>
+                    <tr>
+                        <td><img src="../Medical_Image.jpeg" alt="Medical Image" style="width:50px;height:50px"> 
+                        <td><h6 class="h6">Cougar Medical</h6>                       
+                        <h6 class="h6" >4800 Calhoun Rd, Houston, TX 77004</h6>
+                    </tr>
+                </table>
+            </div> 
+        </footer>
+    </body>
+</html>
